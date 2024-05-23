@@ -6,9 +6,9 @@ import "./styles.css"
 const Header = () => {
     return (
         <section id="header-section">
-            <div id="logo-div">
-                Logo/Name
-            </div>
+            <span className="logo-span">
+                <img src="/WebStoreLogo.png"/>
+            </span>
 
             <SearchBar/>
 

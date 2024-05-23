@@ -10,6 +10,13 @@
     align-items: center;
 }
 
+#header-section .logo-span {
+    width: 120px;
+}
+#header-section .logo-span img {
+    width: 100%;
+}
+
 #header-section a {
     text-decoration: none;
 }
