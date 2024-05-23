@@ -1,0 +1,15 @@
+#header-section {
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 90px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-section a {
+    text-decoration: none;
+}
