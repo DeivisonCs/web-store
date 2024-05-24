@@ -1,0 +1,43 @@
+#offers-banner-section {
+    /* background-color: aqua; */
+    width: 100vw;
+    min-height: 500px;
+
+    padding: 50px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#offers-banner-section  .offers-banner {
+    background-color: #0000006c;
+    width: 90%;
+    max-width: 980px;
+    height: 450px;
+
+    border-radius: 40px;
+}
+
+#offers-banner-section .banner-nav-div {
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#offers-banner-section .banner-nav-div .banner-nav {
+    width: 10px;
+    height: 10px;
+
+    background-color: transparent;
+
+    border: 1px solid #000000b2;
+    border-radius: 50%;
+}
+
+#offers-banner-section .banner-nav-div .banner-nav.activated {
+    background-color: #0000006c;
+}
