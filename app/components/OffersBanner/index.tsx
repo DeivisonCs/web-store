@@ -2,10 +2,10 @@ import React from "react"
 import "./styles.css"
 
 interface BannerProps {
-    imgUrl: string;
+    imgSrc: string;
 }
 
-const OffersBanner: React.FC<BannerProps> = ({imgUrl}) => {
+const OffersBanner: React.FC<BannerProps> = ({imgSrc}) => {
     return(
         <section id="offers-banner-section">
             <div className="offers-banner">
