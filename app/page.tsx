@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import OffersBanner from "./components/OffersBanner"
 import ProductCard from "./components/ProductCard"
+import Footer from "./components/Footer"
 import "./styles.css"
 
 const Home = () => {
@@ -22,6 +23,8 @@ const Home = () => {
                     <ProductCard imgSrc="" name="Product" price="99,99" prevPrice="149,99"/>
                 </div>
             </section>
+
+            <Footer/>
         </>
     );
 }
