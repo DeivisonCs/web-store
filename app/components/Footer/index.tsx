@@ -7,7 +7,7 @@ const Footer = () => {
         <section id="footer-section">
 
             <div className="links-section">
-                
+
                 <div className="link-type-list">
                     <h3>Help</h3>
 
@@ -41,30 +41,28 @@ const Footer = () => {
             </div>
             
             <div className="extra-info-section">
-
-                <div>
-                    <h3>Payment Methods</h3>
-                    <div className="payment-methods">
-                        <span><img src="/paymentsMethods/visa_icon.png"/></span>
-                        <span><img src="/paymentsMethods/mastercard_icon.png"/></span>
-                        <span><img src="/paymentsMethods/elo_icon.png"/></span>
-                        <span><img src="/paymentsMethods/dinnersClub_icon.png"/></span>
-                        <span><img src="/paymentsMethods/pix_icon.png"/></span>
-                    </div>
-                </div>
-
                 <div>
                     <h3>Social</h3>
-                    <div className="social-media">
+                    <div className="social-media extra-info">
                         <Link href=""><img src="/socialMedia/github_icon.svg"/></Link>
                         <Link href=""><img src="/socialMedia/email_icon.svg"/></Link>
                         <Link href=""><img src="/socialMedia/linkedin_icon.svg"/></Link>
                     </div>
                 </div>
 
-                <span className="owner-signature">Deivison Santos</span>
+                <div>
+                    <h3>Payment Methods</h3>
+                    <div className="payment-methods extra-info">
+                        <span><img src="/paymentsMethods/visa_icon.png"/></span>
+                        <span><img src="/paymentsMethods/mastercard_icon.png"/></span>
+                        <span><img src="/paymentsMethods/elo_icon.png"/></span>
+                        <span><img src="/paymentsMethods/dinnersClub_icon.png"/></span>
+                        <span><img src="/paymentsMethods/pix_icon.png"/></span>
+                    </div>
+                </div>  
             </div>
             
+            <span className="owner-signature">Deivison Santos</span>
         </section>
     )
 }
