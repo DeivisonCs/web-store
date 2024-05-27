@@ -6,8 +6,9 @@ const Footer = () => {
     return(
         <section id="footer-section">
 
-            <ul className="links-section">
-                <li className="link-type-list">
+            <div className="links-section">
+                
+                <div className="link-type-list">
                     <h3>Help</h3>
 
                     <ul className="link-content">
@@ -16,9 +17,9 @@ const Footer = () => {
                         <li><Link href="">Track Order</Link></li>
                         <li><Link href="">Contact Us</Link></li>
                     </ul>
-                </li>
+                </div>
 
-                <li className="link-type-list">
+                <div className="link-type-list">
                     <h3>Products</h3>
 
                     <ul className="link-content">
@@ -26,9 +27,9 @@ const Footer = () => {
                         <li><Link href="">Phones</Link></li>
                         <li><Link href="">Smart Watch</Link></li>
                     </ul>
-                </li>
+                </div>
 
-                <li className="link-type-list">
+                <div className="link-type-list">
                     <h3>Terms</h3>
 
                     <ul className="link-content">
@@ -36,19 +37,32 @@ const Footer = () => {
                         <li><Link href="">Privacy Policy</Link></li>
                         <li><Link href="">Terms of Sale</Link></li>
                     </ul>
-                </li>
-            </ul>
+                </div>
+            </div>
             
-            <div className="contacts-section">
-                <div className="social-midias">
-                    <span><img src="/paymentsMethods/pix_icon.png"/></span>
-                    <span><img src="/paymentsMethods/visa_icon.png"/></span>
-                    <span><img src="/paymentsMethods/mastercard_icon.png"/></span>
-                    <span><img src="/paymentsMethods/elo_icon.png"/></span>
-                    <span><img src="/paymentsMethods/dinnersClub_icon.png"/></span>
+            <div className="extra-info-section">
+
+                <div>
+                    <h3>Payment Methods</h3>
+                    <div className="payment-methods">
+                        <span><img src="/paymentsMethods/visa_icon.png"/></span>
+                        <span><img src="/paymentsMethods/mastercard_icon.png"/></span>
+                        <span><img src="/paymentsMethods/elo_icon.png"/></span>
+                        <span><img src="/paymentsMethods/dinnersClub_icon.png"/></span>
+                        <span><img src="/paymentsMethods/pix_icon.png"/></span>
+                    </div>
                 </div>
 
-                <span className="owner-signature"></span>
+                <div>
+                    <h3>Social</h3>
+                    <div className="social-media">
+                        <Link href=""><img src="/socialMedia/github_icon.svg"/></Link>
+                        <Link href=""><img src="/socialMedia/email_icon.svg"/></Link>
+                        <Link href=""><img src="/socialMedia/linkedin_icon.svg"/></Link>
+                    </div>
+                </div>
+
+                <span className="owner-signature">Deivison Santos</span>
             </div>
             
         </section>
