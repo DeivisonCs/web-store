@@ -22,7 +22,7 @@
 
     /* border: 1px solid #000; */
     /* border-radius: 2em; */
-    box-shadow: 0px 0px 10px #000000d0;
+    /* box-shadow: 0px 0px 10px #000000d0; */
 
     display: flex;
     align-items: flex-start;
@@ -60,7 +60,7 @@
 }
 
 #login-section form .buttons-div {
-    width: 67%;
+    width: 63%;
     margin-top: 30px;
 
     display: flex;
@@ -139,6 +139,24 @@
     height: 10px;
 
     animation: buttonBorderRotate 4s infinite ease-in-out;
+}
+
+#login-section form .assistant-access-link {
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-section form .assistant-access-link a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#login-section form .assistant-access-link a:hover {
+    text-decoration: underline;
 }
 
 @keyframes bgAnimation {

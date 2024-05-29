@@ -23,6 +23,11 @@ const LoginPage = () => {
                         <button type="submit" className="submit-button">LogIn</button>
                     </div>
                 </div>
+
+                <div className="assistant-access-link">
+                    <Link href="/signup">Don't have an account?</Link>
+                    <Link href="">Forgot Password?</Link>
+                </div>
             </form>
         </section>
     )
