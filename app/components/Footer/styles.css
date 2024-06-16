@@ -18,6 +18,7 @@
     /* background-color: cyan; */
     /* flex-basis: 70%; */
     flex-grow: 1;
+    margin-bottom: 30px;
 
     display: flex;
     flex-direction: row;
@@ -65,6 +66,15 @@
     gap: 30px;
 }
 
+@media screen and (max-width: 890px){
+    #footer-section .extra-info-section{
+        margin-left: 15px;
+
+        flex-direction: row;
+        gap: 80px;
+    }
+}
+
 #footer-section .extra-info-section h3 {
     font-size: 15px;
 }
@@ -88,6 +98,12 @@
 
 #footer-section .extra-info-section .payment-methods span img{
     width: 50px;
+}
+
+@media screen and (max-width: 890px){
+    #footer-section .extra-info-section .payment-methods{
+        padding-left: 20px;
+    }
 }
 
 /* ---------------------- Social Media ------------------------- */
@@ -115,6 +131,12 @@
 
 #footer-section .extra-info-section .social-media a img{
     width: 20px;
+}
+
+@media screen and (max-width: 890px){
+    #footer-section .extra-info-section .social-media{
+        padding-left: 20px;
+    }  
 }
 
 /* ---------------------- Signature ------------------------- */
