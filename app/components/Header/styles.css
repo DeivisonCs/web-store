@@ -19,4 +19,24 @@
 
 #header-section a {
     text-decoration: none;
+    color: #000;
+}
+
+#header-section .interaction-links .navegation{
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#header-section .interaction-links .navegation a:hover{
+    background-color: #0000001a;
+    border-radius: 15px;
+    margin: -3px -8px;
+    padding: 3px 8px;
+}
+
+#header-section .interaction-links .navegation #link-to-products {
+    font-weight: 600;
 }
