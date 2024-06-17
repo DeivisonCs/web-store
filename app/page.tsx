@@ -7,7 +7,7 @@ import "./styles.css"
 const Home = () => {
     return (
         <>
-            <Header/>
+            <Header logo={true} searchBar={false} products={true} account={true}/>
             <OffersBanner imgSrc=""/>
 
             <section id="promotion-section">
