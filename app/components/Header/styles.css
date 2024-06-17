@@ -22,6 +22,12 @@
     color: #000;
 }
 
+#header-section .interaction-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 #header-section .interaction-links .navegation{
     /* background-color: red; */
 
